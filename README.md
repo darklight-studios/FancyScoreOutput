@@ -11,7 +11,7 @@ The FancyScoreOutput plugin changes the score report template to a fancy html fi
 2. Unzip the FancyScoreOutput.zip file
 3. Replace the old DNC templates folder with the one from the zip file
 4. Add DNCFancyScoreOutput.jar to your DNC build path
-5. Add `new FancyScoreOutput(pluginHandler)` to the initialized plugins array in CoreEngine
+5. Add `new FancyScoreOutput(accessHandler)` to the initialized plugins array in CoreEngine
 6. Start DNC!
 
 ### Screenshot
